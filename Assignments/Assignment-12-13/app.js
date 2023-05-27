@@ -2,6 +2,21 @@
 //................... TESTING SET OF CONDITIONS ...................
 
 //...................Q1.................
+// 1. Write a program that takes a character (number or string) 
+// in a variable & checks whether the given input is a 
+// number, uppercase letter or lower case letter. (Hint: ASCII 
+// codes:- A=65, Z=90, a=97, z=122).
+
+// var userChar = prompt("Enter a character(number or string) ");
+
+// if ((userChar >= 'A' && userChar <= 'Z') || (userChar >= 65 && userChar <= 90)) {
+//     alert("The given input is an Uppercase Letter: " + userChar)
+// }else if((userChar >= 'a' && userChar <= 'z') || (userChar >= 97 && userChar <= 122))
+// {
+//     alert("The given input is a Lowercase Letter: " + userChar)
+
+// }else{alert("The given input is a Number: " + userChar)}
+
 //...................Q2.................
 
 // 2. Write a JavaScript program that accept two integers and
@@ -34,20 +49,25 @@
 // }
 //...................Q4.................
 
+//  Write a program that takes a character (i.e. string of 
+    // length 1) and returns true if it is a vowel, false otherwise
+    
 // var character = prompt("Enter a character:");
 
-// // Convert the character to lowercase for easier comparison
-// character = character.toLowerCase();
-
-// // Define an array of vowels
-// var vowels = ['a', 'e', 'i', 'o', 'u'];
-
-// // Check if the character is a vowel
-// if (vowels.includes(character)) {
-//   alert("The character is a vowel.");
+// if (character.length ==1 ) {
+  
 // } else {
-//   alert("The character is not a vowel.");
+//     alert("Enter only one character."); 
 // }
+
+// if (character =="a"||character =="e"||character =="i"
+// ||character =="o"||character =="u")
+//  {
+//     document.write("true")
+// } else{
+//     document.write("false")  
+// }
+
 
 //...................Q5.................
 
@@ -72,7 +92,7 @@
 //                  // (!) if statmnt my use hota h is sy chk kiya jta h k varible empty h ya ni
 //                  // js my empty string ("") false hoti h agr user pass daly ga to (logical not)
 //                  // false ho jy ga agr ni daly ga to true hoga
-// if (!userPass ||userPass==="")  
+// if (!userPass)  
 //  {
 //     alert("“ Please enter your password”")
 // } else if(userPass===jsVariable){
@@ -112,12 +132,21 @@
 
 // var greeting 
  
-// if (time >=0000&&time<1200 ) {
+// if (time >=0000&&time<1200 )
+//  {
 //     alert(greeting = "Good morning")
-// }else if(time>=1200&&time<1700){
+
+// }else if(time>=1200&&time<1700)
+// {
 //     alert(greeting = "Good afternoon")
+
 // }else if(time>=1700&&time<2100){
+
 //     alert(greeting = "Good evening")
+
 // }else if (time>=2100&&time <=2359){
+
 //     alert(greeting = "Good night")
 // }
+
+//.................END....................
