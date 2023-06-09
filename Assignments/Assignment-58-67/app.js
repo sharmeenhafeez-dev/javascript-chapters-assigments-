@@ -25,13 +25,13 @@
 
 // var mainContent=document.getElementById('main-content')
 
-// ii. Display all child elements of “main-content” element.
+// // ii. Display all child elements of “main-content” element.
 // var mainContent = document.getElementById('main-content').childNodes
 
 // console.log(mainContent)
 
-// iii. Get all elements of class “render” and show their innerHTML 
-// in browser.
+// // iii. Get all elements of class “render” and show their innerHTML 
+// // in browser.
 
 // var render = document.getElementsByClassName("render");
 // for (var i = 0; i < render.length; i++) {
@@ -54,24 +54,24 @@
 // console.log(formContent.nodeType)
 
 
-// ii. Show node type of element having id “lastName” and its child node.
+// // ii. Show node type of element having id “lastName” and its child node.
 
-// iii. Update child node of element having id “lastName”.
+// // iii. Update child node of element having id “lastName”.
 
-// iv. Get First and last child of id “main-content”.
+// // iv. Get First and last child of id “main-content”.
 
 // var mainContent = document.getElementById("main-content");
 // console.log("First child of main-content:", mainContent.firstChild);
 // console.log("Last child of main-content:", mainContent.lastChild);
 
-// v. Get next and previous siblings of id “lastName”.
+// // v. Get next and previous siblings of id “lastName”.
 
 // var lastNameElement = document.getElementById("last-name");
 // console.log("Next sibling of lastName:", lastNameElement.nextSibling);
 // console.log("Previous sibling of lastName:", lastNameElement.previousSibling);
 
 
-// // vi. Get parent node and node type of element having id “email”
+// // // vi. Get parent node and node type of element having id “email”
 // var emailElement = document.getElementById("email");
 // console.log("Parent node of email:", emailElement.parentNode);
 // console.log("Node type of email:", emailElement.nodeType);

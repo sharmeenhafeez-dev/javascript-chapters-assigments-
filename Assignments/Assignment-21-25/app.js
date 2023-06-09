@@ -207,7 +207,9 @@
    
 //     document.write("we are sorry "+userInput+ " not avaliable in our bakary")}
 
+
 //...................Q15.................
+
 
 // 15. Write a program to take password as an input from 
 // user. The password must qualify these requirements:
@@ -222,9 +224,24 @@
 // var invalidpassward=false
 // var userpass =prompt("enter your password")
 // // // ....a. It should contain alphabets and numbers......
-// if (userpass>=6&&"a-z"&&"A-Z"&&0-9&&) {
-//   invalidpassward = true
 
+// var pass = prompt("Enter a password:");
+// var invalidPassword = true;
+// if (!pass.match(/[a-zA-Z]/) || !pass.match(/[0-9]/)) {
+//   invalidPassword = false;
+// }
+// if (/^[0-9]/.match(pass)) {
+//   invalidPassword = false;
+// }
+// if (pass.length < 6) {
+//   invalidPassword = false;
+// }
+// if (invalidPassword) {
+//   alert ("Valid password!");
+// } else if (invalidPassword){
+//   alert("Invalid password! Please enter a valid password.");
+// }else{
+//     alert("Password cannot begin a number")
 // }
 
 //...................Q16.................
